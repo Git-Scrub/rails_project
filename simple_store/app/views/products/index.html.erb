@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
-
+	<% (1..100).each do %>
+		<p> Chunky Bacon </p>
+	<% end %>
+	
+	<p> Total number of unique products: <%= @numberOfProducts %></p>
+	<p> Average price of products: <%= @averagePriceOfProducts %></p>
+	<p> Quantity of all products stock combined: <%= @totalProducts %></p>
 <h1>Products</h1>
 
 <table>
